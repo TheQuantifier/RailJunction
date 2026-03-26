@@ -1,0 +1,56 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "shape": "north_south"
+      },
+      "apply": {
+        "model": "minecraft:block/rail"
+      }
+    },
+    {
+      "when": {
+        "shape": "east_west"
+      },
+      "apply": {
+        "model": "minecraft:block/rail",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "shape": "north_east"
+      },
+      "apply": {
+        "model": "minecraft:block/rail_corner",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "shape": "north_west"
+      },
+      "apply": {
+        "model": "minecraft:block/rail_corner",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "shape": "south_east"
+      },
+      "apply": {
+        "model": "minecraft:block/rail_corner"
+      }
+    },
+    {
+      "when": {
+        "shape": "south_west"
+      },
+      "apply": {
+        "model": "minecraft:block/rail_corner",
+        "y": 90
+      }
+    }
+  ]
+}
